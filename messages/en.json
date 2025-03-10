@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "IndexPage": {
+    "title": "Little Lemon",
+    "description": "We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.",
+    "specials": "This week's specials",
+    "booking": {
+      "description": "Authentic Greek Restaurant",
+      "button": "Book a table"
+    },
+    "card1": {
+      "title": "Greek Salad",
+      "description": "A Greek salad is a dish consisting of pieces of tomatoes, cucumbers, onion, feta cheese, and olives, typically seasoned with salt, oregano, and olive oil."
+    },
+    "card2": {
+      "title": "Bruchetta",
+      "description": "Bruschetta is an antipasto from Italy consisting of grilled bread rubbed with garlic and topped with olive oil and salt."
+    },
+    "card3": {
+      "title": "Lemon Dessert",
+      "description": "Lemon is a sweet dessert that typically consists of a mixture of lemon juice, sugar, and eggs that is cooked until thickened and then served cold."
+    },
+    "order": "order"
+ },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "PathnamesPage": {
+    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pfadnamen"
+  }
+}

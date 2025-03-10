@@ -1,0 +1,15 @@
+$device : (
+  desktop : 1920px,
+  laptop  : 1024px,
+  mobile  : 640px,
+  tablet  : 768px,
+);
+
+@mixin query($screen){
+  @each $key,$value in $device{
+    @if ($screen == $key) {
+      @media (max-width : $value){@content};
+    }
+  }
+}
+

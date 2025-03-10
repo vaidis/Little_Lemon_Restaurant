@@ -1,0 +1,47 @@
+@import '../ui/breakpoints.scss';
+
+.testimonials {
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.cards {
+  display: grid;
+  gap: 30px;
+  grid-template-areas: 'a b c d e'
+}
+
+@include query(laptop) {
+  .cards {
+    display: block;
+    // display: inline-block;
+    // min-width:1024px;
+    width: min(1024px, 100%);
+    margin: 0 auto;
+    columns: 3 200px;
+    column-gap: 1em;
+    height: auto;
+  }
+}
+
+@include query(tablet) {
+  .cards {
+    width: min(1024px, 100%);
+    margin: 0 auto;
+    columns: 2 200px;
+  }
+}
+
+@include query(mobile) {
+  .cards {
+    width: min(1024px, 100%);
+    margin: 0 auto;
+    columns: 1 200px;
+  }
+}
+

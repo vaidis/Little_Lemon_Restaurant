@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Αρχική",
+    "about": "Εστιατόριο",
+    "contact": "Επικοινωνία"
+  },
+  "IndexPage": {
+    "title": "Μικρό Λεμόνι",
+    "description": "Είμαστε ένα οικογενειακό μεσογειακό εστιατόριο, που επικεντρώνεται σε παραδοσιακές συνταγές που σερβίρονται με μοντέρνα πινελιά.",
+    "specials": "Τα πιάτα της εβδομάδας",
+    "booking": {
+      "description": "Αυθεντικό Ελληνικό Εστιατόριο",
+      "button": "Κλείσε τραπέζι"
+    },
+    "card1": {
+      "title": "Ελληνική Σαλάτα",
+      "description": "Η ελληνική σαλάτα είναι ένα πιάτο που αποτελείται από κομμάτια ντομάτας, αγγουριού, κρεμμυδιού, φέτας και ελιών, τα οποία τυπικά αρωματίζονται με αλάτι, ρίγανη και ελαιόλαδο."
+    },
+    "card2": {
+      "title": "Μπρουσκέτα",
+      "description": "Η μπρουσκέτα είναι ένα αντιπάστο από την Ιταλία που αποτελείται από ψημένο ψωμί που τρίβεται με σκόρδο και στρώνεται με ελαιόλαδο και αλάτι."
+    },
+    "card3": {
+      "title": "Γλυκό Λεμόνι",
+      "description": "Το γλυκό λεμόνι είναι ένα γλυκό που αποτελείται τυπικά από μίγμα χυμού λεμονιού, ζάχαρης και αυγών που μαγειρεύεται μέχρι να πήξει και σερβίρεται κρύο."
+    },
+    "order": "παραγγελία"
+  },
+  "LocaleSwitcher": {
+    "label": "Αλλαγή γλώσσας",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "PathnamesPage": {
+    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
+    "title": "Pfadnamen"
+  }
+}

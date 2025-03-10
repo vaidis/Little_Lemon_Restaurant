@@ -1,0 +1,49 @@
+@import './ui/breakpoints.scss';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-dark);
+  padding: 60px 0;
+}
+
+.footer .inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+
+@include query(mobile) {
+  .footer .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .inner > div {
+    width: 100%;
+    margin: 20px 0; }
+}
+
+.footer > .inner > div {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.social a {
+  color: var(--text);
+  text-decoration: none;
+  margin: 10px;
+}

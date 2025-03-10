@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="flag-icons-gr"
+   viewBox="0 0 640 480"
+   version="1.1"
+   sodipodi:docname="moon.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     inkscape:zoom="0.87708335"
+     inkscape:cx="306.12826"
+     inkscape:cy="246.84085"
+     inkscape:window-width="1296"
+     inkscape:window-height="1118"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="flag-icons-gr" />
+  <path
+     fill="#0d5eaf"
+     fill-rule="evenodd"
+     d="M 0,0 H 640 V 480 H 0 Z"
+     id="path1"
+     style="stroke-width:3.00094;fill:#4860be;fill-opacity:1" />
+  <path
+     id="path12"
+     style="fill:#fbef69;fill-opacity:1;stroke-width:0.598352"
+     d="M 360.58666,138.35142 A 101.6488,101.6488 0 0 0 258.93808,240 a 101.6488,101.6488 0 0 0 101.64858,101.64858 101.6488,101.6488 0 0 0 100.47526,-86.54369 81.694272,81.694272 0 0 1 -73.699,46.63523 81.694272,81.694272 0 0 1 -81.69377,-81.69493 81.694272,81.694272 0 0 1 69.19382,-80.67236 101.6488,101.6488 0 0 0 -14.27631,-1.02141 z" />
+</svg>
