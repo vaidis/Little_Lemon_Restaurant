@@ -3,7 +3,6 @@ import styles from "./Modal.module.scss";
 
 const Modal = ({ isOpen, onClose, children }) => {
   useEffect(() => {
-    // Prevent background scrolling when modal is open
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {

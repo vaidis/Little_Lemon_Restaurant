@@ -9,7 +9,6 @@ export default async function BaseLayout({children, locale}) {
 
   return (
     <html lang={locale}>
-
       <body>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>

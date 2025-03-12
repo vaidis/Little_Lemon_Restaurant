@@ -2,8 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-
-import styles from "./header.module.css";
 import logo from '../public/logo2.png';
 
 export default function Logo() {
@@ -14,9 +12,6 @@ export default function Logo() {
         alt="Brand Logo"
         fill
         style={{ objectFit: 'contain' }}
-        // sizes="(max-width: 768px) 30vw,
-        //        (max-width: 1200px) 15vw,
-        //        10vw"
       />
     </div>
   );

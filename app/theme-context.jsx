@@ -13,7 +13,7 @@ export function ThemeProvider({ children }) {
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       return prefersDark ? 'dark' : 'light';
     }
-    return 'dark'; // fallback during SSR
+    return 'dark';
   });
 
   console.log('ThemeProvider 1 theme:', theme);

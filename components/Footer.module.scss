@@ -14,9 +14,6 @@
   align-items: flex-start;
 }
 
-
-
-
 @include query(mobile) {
   .footer .inner {
     flex-direction: column;

@@ -9,9 +9,7 @@ export default function useMediaQuery(query) {
     const mediaQueryList = window.matchMedia(query);
     const listener = (e) => setMatches(e.matches);
 
-    // Check initial value
     setMatches(mediaQueryList.matches);
-    // Listen for changes
     mediaQueryList.addEventListener('change', listener);
 
     return () => {

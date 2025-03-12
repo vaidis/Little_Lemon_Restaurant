@@ -19,8 +19,6 @@
 @include query(laptop) {
   .cards {
     display: block;
-    // display: inline-block;
-    // min-width:1024px;
     width: min(1024px, 100%);
     margin: 0 auto;
     columns: 3 200px;
