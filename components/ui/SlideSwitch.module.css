@@ -27,7 +27,7 @@
   width: 70px;
   border-radius: 2rem;
 
-  input {
+  .input {
     position: absolute;
     appearance: none;
   }

@@ -12,7 +12,7 @@
               -4px -4px 8px var(--shadow-light);
   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
   margin: 20px;
-  span{
+  .line{
     background-color:var(--primary);
     box-shadow: 0px 0px 10px 0px rgba(240,128,128,0.3);
     width:20px;
@@ -22,7 +22,7 @@
     transition:margin 0.4s cubic-bezier(.79,.21,.06,.81),transform 0.4s cubic-bezier(.79,.21,.06,.81);
   }
     
-  span:nth-child(2){
+  .line:nth-child(2){
     transform-origin:50% 50%;
   }
 }
@@ -32,17 +32,17 @@
               -4px -4px  8px 0px var(--shadow-light),
         inset  6px  6px 12px 0px var(--shadow-dark),
         inset -6px -6px  5px 0px var(--shadow-light);
-  span{
+  .line{
     margin:-2px;
   }
-  span:nth-child(1){
+  .line:nth-child(1){
     transform:rotate(-45deg);
     
   }
-  span:nth-child(2){
+  .line:nth-child(2){
     transform:scale(0)
   }
-  span:nth-child(3){
+  .line:nth-child(3){
     transform:rotate(45deg)
   }
 }

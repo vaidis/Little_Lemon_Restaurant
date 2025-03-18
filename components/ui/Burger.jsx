@@ -8,9 +8,9 @@ export default function Burger({ isOpen, toggleMenu }) {
             onClick={toggleMenu}
             aria-label="Toggle menu"
         >
-            <span></span>
-            <span></span>
-            <span></span>
+            <span className={styles.line}></span>
+            <span className={styles.line}></span>
+            <span className={styles.line}></span>
         </div>
     );
 }

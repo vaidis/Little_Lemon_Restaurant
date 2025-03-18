@@ -9,7 +9,7 @@ export default function LangSwitch({state, toggleState, leftIcon, rightIcon}) {
     true && (
       <div className={styles.switch}>
         <label className={styles.toggle} arial-label="Toggle dark mode">
-          <input defaultChecked={state} onClick={() => toggleState()} type="checkbox" />
+          <input className={styles.input} defaultChecked={state} onClick={() => toggleState()} type="checkbox" />
           <div className={styles.movable}>
             <div className={styles.knob}></div>
             <div className={styles.images}>
