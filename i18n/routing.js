@@ -7,13 +7,13 @@ import {defineRouting} from 'next-intl/routing';
 export const routing = defineRouting({
   locales: ['en', 'el'],
   defaultLocale: 'en',
-  pathnames: {
-    '/': '/',
-    '/pathnames': {
-      en: '/pathnames',
-      el: '/pathnames'
-    }
-  }
+  //pathnames: {
+  //  '/': '/',
+  //  '/pathnames': {
+  //    en: '/pathnames',
+  //    el: '/pathnames'
+  //  }
+  //}
 });
 
 // createNavigatio creates helper utilities
