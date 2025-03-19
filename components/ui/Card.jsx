@@ -5,7 +5,7 @@ import {useTranslations} from 'next-intl';
 export default function Card(props) {
   const {title, description, price, image, index, testimonial} = props;
   const t = useTranslations('IndexPage');
-  console.log('props', props);
+  
   return (
     <div index={index} className={`${styles.card} ${testimonial ? styles.testimonial : ''}`}>
       <div className={styles.image}>
